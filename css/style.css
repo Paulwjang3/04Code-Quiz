@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    text-align: center;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    flex-direction: center;
+    
+}
+
+.question, .submit, .highscore, .check-answer {
+    display:none;
+}
